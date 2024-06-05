@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #ECECEC;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 1;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly
+}
+
+nav ul li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+nav ul li a {
+    list-style: none;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+#hero {
+    background: url('fundo-branco-com-efeito-de-luz_689904-136154.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#sobre-mim {
+    padding: 20px;
+}
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C96522;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.section-title {
+    color: #C96522;
+    border-bottom: 2px solid #ffffff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #ECECEC;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
