@@ -9,25 +9,39 @@ body {
 header {
     background-color: #ECECEC;
     color: rgb(0, 0, 0);
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #083880;
+}
+
+.logo .highlight {
+    color: #C96522;
 }
 
 nav ul {
     list-style: none;
-    margin: 1;
+    margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly
 }
 
 nav ul li {
     margin: 0 15px;
-    list-style: none;
 }
 
 nav ul li a {
-    list-style: none;
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;
@@ -39,29 +53,55 @@ nav ul li a:hover {
 }
 
 #hero {
-    background: url('fundo-branco-com-efeito-de-luz_689904-136154.jpg') no-repeat center center/cover;
+    background: url('imgs/fundo.jpg') no-repeat center center/cover;
     height: 100vh;
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    position: relative;
+    padding-left: 250px;
 }
 
 .hero-content {
     max-width: 600px;
 }
 
+.hero-content .hello {
+    background-color: #F7931E;
+    color: #03235e;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 .hero-content h1 {
     font-size: 50px;
-    margin-bottom: 10px;
+    margin: 10px 0;
+    color: #03235e;
 }
-#sobre-mim {
-    padding: 20px;
-}
-.hero-content p {
+
+.hero-content .role {
     font-size: 24px;
-    margin-bottom: 20px;
+    color: #C96522;
+}
+
+.hero-content .certification {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-content .cisco-logo {
+    vertical-align: middle;
+    width: 55px;
+    margin-right: 5px;
+}
+
+.hero-content .buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 .btn {
@@ -71,12 +111,12 @@ nav ul li a:hover {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 6px;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #ffffff;
+    background-color: #083880;
 }
 
 .container {
@@ -99,4 +139,70 @@ footer {
     position: static;
     bottom: 0;
     width: 100%;
+}
+
+/* About Me Section */
+#about-me {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.about-me-container img {
+    border-radius: 10px;
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.about-me-content {
+    max-width: 600px;
+}
+
+.about-me-content h2 {
+    font-size: 36px;
+    color: #083880;
+}
+
+.about-me-content h2 .highlight {
+    color: #C96522;
+}
+
+.about-me-content p {
+    font-size: 24px;
+    margin: 10px 0 20px;
+    color: #083880;
+}
+
+.about-me-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-me-content ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.social-links img {
+    width: 100%;
+    height: 100%;   
 }
