@@ -61,7 +61,7 @@ Para visualizar o portfólio localmente, siga estas etapas:
     - Você pode simplesmente arrastar o arquivo `index.html` para uma janela aberta do navegador ou
     - Clicar duas vezes no arquivo `index.html` para abrir diretamente no navegador padrão.
   
-4. **Ou abra o link abaixo**:
+ **Ou abra o link abaixo**:
     - <a href="https://luizddev.github.io/portfolioluizddev/">Link do Portfólio</a>
 
 ## Próximas Melhorias
