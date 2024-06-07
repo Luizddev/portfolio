@@ -77,17 +77,17 @@ Aqui estão algumas melhorias planejadas para este portfólio:
 
 Visão Mobile:
 
- <img src="imgs/Home_Mobile.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+ <img width="30%" src="imgs/Home_Mobile.png"  alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
  <img src="imgs/Home_About_Me.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
  Visão Tablet:
 
- <img src="imgs/Home_Tablet.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+ <img width="30%" src="imgs/Home_Tablet.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
   Visão Desktop:
 
- <img src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+ <img width="30%" src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
 
 ## Contato
 
