@@ -1,3 +1,4 @@
+/* Estilos gerais */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -13,8 +14,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    z-index: 1000;
 }
-
 
 .logo {
     display: flex;
@@ -50,7 +52,19 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffffff;
+    color: #C96522;
+}
+
+/* Header fixo para telas grandes */
+@media (min-width: 1024px) {
+    header {
+        position: fixed;
+        top: 0;
+    }
+
+    body {
+        padding-top: 80px; /* Ajuste conforme a altura do header */
+    }
 }
 
 #home {
@@ -462,4 +476,222 @@ footer {
 
 .main-text h3 .highlight {
     color: #C96522;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #home {
+        padding-left: 20px;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        padding: 40px 20px;
+    }
+
+    .home-content {
+        padding: 20px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content .role {
+        font-size: 20px;
+    }
+
+    .about-me-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me-container img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-me-content {
+        max-width: 100%;
+    }
+
+    .experience {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experience img {
+        margin-bottom: 10px;
+    }
+
+    .experience-details {
+        max-width: 100%;
+    }
+
+    .portfolio-content {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 10px 15px;
+    }
+
+    #home {
+        padding-left: 40px;
+        height: auto;
+        justify-content: center;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content .role {
+        font-size: 22px;
+    }
+
+    .about-me-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me-container img {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .about-me-content {
+        max-width: 100%;
+    }
+
+    .experience {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experience img {
+        margin-bottom: 10px;
+    }
+
+    .experience-details {
+        max-width: 100%;
+    }
+
+    .portfolio-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skill {
+        margin-bottom: 20px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    #home {
+        padding-left: 250px;
+        height: 100vh;
+    }
+
+    .home-content h1 {
+        font-size: 50px;
+    }
+
+    .home-content .role {
+        font-size: 24px;
+    }
+
+    .about-me-container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about-me-container img {
+        max-width: 500px;
+        margin-right: 40px;
+    }
+
+    .about-me-content {
+        max-width: 600px;
+    }
+
+    .experience {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .experience img {
+        margin-right: 20px;
+    }
+
+    .experience-details {
+        max-width: 1000px;
+    }
+
+    .portfolio-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skill {
+        margin-bottom: 0;
+    }
 }
