@@ -87,7 +87,7 @@ Visão Mobile:
 
   Visão Desktop:
 
- <img width="30%" src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+ <img width="60%" src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
 
 ## Contato
 
