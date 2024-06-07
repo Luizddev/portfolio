@@ -79,7 +79,7 @@ Visão Mobile:
 
  <img width="30%" src="imgs/Home_Mobile.png"  alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
- <img width="30%"src="imgs/Home_About_Me.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+ <img width="30%" src="imgs/Home_About_Me.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
  Visão Tablet:
 
