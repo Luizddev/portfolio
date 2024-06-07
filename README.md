@@ -68,12 +68,26 @@ Para visualizar o portfólio localmente, siga estas etapas:
 
 Aqui estão algumas melhorias planejadas para este portfólio:
 
-1. **Responsividade**: Tornar o design responsivo para que o portfólio seja visualizado corretamente em dispositivos móveis e tablets.
-2. **Alteração do Tema**: Implementar um tema escuro para melhorar a experiência do usuário, permitindo a troca entre os temas.
-3. **Animações e Interatividade**: Adicionar animações sutis e interações para tornar a navegação mais envolvente.
-4. **SEO e Performance**: Melhorar o SEO e otimizar a performance para um carregamento mais rápido das páginas.
-5. **Novos Projetos e Experiências**: Atualizar a seção de projetos com novos trabalhos e adicionar novas experiências profissionais conforme forem surgindo oportunidades.
-6. **Tradução**: Disponibilizar o portfólio em outros idiomas, como inglês, para alcançar um público mais amplo.
+1. **Alteração do Tema**: Implementar um tema escuro para melhorar a experiência do usuário, permitindo a troca entre os temas.
+2. **Animações e Interatividade**: Adicionar animações sutis e interações para tornar a navegação mais envolvente.
+3. **SEO e Performance**: Melhorar o SEO e otimizar a performance para um carregamento mais rápido das páginas.
+4. **Novos Projetos e Experiências**: Atualizar a seção de projetos com novos trabalhos e adicionar novas experiências profissionais conforme forem surgindo oportunidades.
+
+## Foto do projeto
+
+Visão Mobile:
+
+ <img src="imgs/Home_Mobile.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+
+ <img src="imgs/Home_About_Me.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+
+ Visão Tablet:
+
+ <img src="imgs/Home_Tablet.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+
+  Visão Desktop:
+
+ <img src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
 
 ## Contato
 
