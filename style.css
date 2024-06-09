@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 98%;
     z-index: 1000;
 }
 
@@ -26,11 +26,11 @@ header {
 .logo h1 {
     margin: 0;
     font-size: 24px;
-    color: #083880;
+    color: #213A57;
 }
 
 .logo .highlight {
-    color: #C96522;
+    color: #000000;
 }
 
 nav ul {
@@ -49,10 +49,11 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    transition: all .45s ease;
 }
 
 nav ul li a:hover {
-    color: #C96522;
+    color: #0B6477;
 }
 
 /* Header fixo para telas grandes */
@@ -84,8 +85,8 @@ nav ul li a:hover {
 }
 
 .home-content .hello {
-    background-color: #C96522;
-    color: #03235e;
+    background-color: #213A57;
+    color: #ffffff;
     display: inline-block;
     padding: 5px 10px;
     border-radius: 5px;
@@ -102,12 +103,12 @@ nav ul li a:hover {
 .home-content h1 {
     font-size: 50px;
     margin: 10px 0;
-    color: #03235e;
+    color: #0B6477;
 }
 
 .home-content .role {
     font-size: 24px;
-    color: #C96522;
+    color: #213A57;
 }
 
 .home-content .certification {
@@ -130,7 +131,7 @@ nav ul li a:hover {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #C96522;
+    background-color: #213A57;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -139,7 +140,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: #083880;
+    background-color: #213A57;
 }
 
 .container {
@@ -148,7 +149,7 @@ nav ul li a:hover {
 }
 
 .section-title {
-    color: #C96522;
+    color: #213A57;
     border-bottom: 2px solid #ffffff;
     display: inline-block;
     margin-bottom: 20px;
@@ -190,17 +191,17 @@ footer {
 
 .about-me-content h2 {
     font-size: 36px;
-    color: #083880;
+    color: #000000;
 }
 
 .about-me-content h2 .highlight {
-    color: #C96522;
+    color: #213A57;
 }
 
 .about-me-content p {
     font-size: 24px;
     margin: 10px 0 20px;
-    color: #083880;
+    color: #213A57;
 }
 
 .about-me-content ul {
@@ -246,13 +247,13 @@ footer {
 
 .skills-title {
     font-size: 2.5em;
-    color: #ff7f00;
+    color: #213A57;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .skills-title span {
-    color: #004080;
+    color: #000000;
 }
 
 .skills-container {
@@ -288,21 +289,21 @@ footer {
 .skill p {
     margin: 0;
     font-weight: bold;
-    color: #003366;
+    color: #000000;
 }
 
 
 /* Experiences Section */
 
 .section-title {
-    color: #083880;
+    color: #000000;
     text-align: center;
     margin: 40px 0 20px;
     font-size: 2em;
 }
 
 .section-title .highlight {
-    color: #C96522;
+    color: #000000;
 }
 
 .experience {
@@ -327,26 +328,26 @@ footer {
 }
 
 .experience-period {
-    color: #083880;
+    color: #000000;
     text-align: start;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .experience-role {
-    color: #C96522;
+    color: #213A57;
     font-size: 1.2em;
     margin-bottom: 10px;
     text-align: start;
 }
 
 .company-name {
-    color: #083880;
+    color: #000000;
     font-weight: bold;
 }
 
 .experience-stack {
-    color: #083880;
+    color: #000000;
 }
 
 /* Projects Section */
@@ -468,14 +469,14 @@ footer {
 }
 
 .main-text h3{
-    color: #083880;
+    color: #000000;
     text-align: center;
     margin: 40px 0 20px;
     font-size: 1.6em;
 }
 
 .main-text h3 .highlight {
-    color: #C96522;
+    color: #213A57;
 }
 
 /* Mobile Styles */
