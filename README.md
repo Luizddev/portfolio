@@ -77,23 +77,23 @@ Aqui estão algumas melhorias planejadas para este portfólio:
 
 Mobile:
 
- <img width="30%" src="imgs/Home_Mobile.png"  alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+ <img width="40%" src="imgs/Home_Mobile.png"  alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
- <img width="30%" src="imgs/Home_About_Me.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+ <img width="40%" src="imgs/Home_About_Me.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
 Tablet:
 
- <img width="30%" src="imgs/Home_Tablet.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
+ <img width="40%" src="imgs/Home_Tablet.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
 Desktop:
 
- <img width="60%" src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+ <img width="70%" src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
 
- <img width="60%" src="imgs/About_me_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+ <img width="70%" src="imgs/About_me_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
 
- <img width="60%" src="imgs/Work_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+ <img width="70%" src="imgs/Work_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
 
-  <img width="60%" src="imgs/Skills_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+  <img width="70%" src="imgs/Skills_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
 
 ## Contato
 
