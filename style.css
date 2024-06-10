@@ -106,6 +106,7 @@ nav ul li a:hover {
     color: #0B6477;
 }
 
+
 .home-content .role {
     font-size: 24px;
     color: #213A57;
@@ -180,13 +181,12 @@ footer {
 }
 
 .about-me-container img {
-    border-radius: 10px;
     max-width: 500px;
     margin-right: 40px;
 }
 
 .about-me-content {
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .about-me-content h2 {
@@ -216,28 +216,39 @@ footer {
 
 .social-links {
     display: flex;
-    gap: 10px;
-    margin-top: 20px;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
 }
 
 .social-links a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-
-.social-links img {
-    width: 100%;
-    height: 100%;   
-}
-
-.social-links {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    color: #ccc;
+    border: 2px solid #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    overflow: hidden;
 }
 
+.social-links a img {
+    margin: 0 auto;
+    width: 40px; 
+    height: 40px; 
+    object-fit: contain; 
+}
+
+.social-links a:hover {
+    color: #fff;
+    background-color: #213A57;
+    border-color: #213A57;
+}
+
+/* Skills Section */
 .skills-section {
     display: flex;
     flex-direction: column;
@@ -262,7 +273,6 @@ footer {
     gap: 20px;
     width: 80%;
     max-width: 1200px;
-    max-width: 800px;
 }
 
 .skill {
@@ -292,9 +302,7 @@ footer {
     color: #000000;
 }
 
-
 /* Experiences Section */
-
 .section-title {
     color: #000000;
     text-align: center;
@@ -351,10 +359,9 @@ footer {
 }
 
 /* Projects Section */
-
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: 1fr;
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
@@ -626,21 +633,19 @@ footer {
     .skills-container {
         grid-template-columns: 1fr 1fr;
     }
-
-    .skill {
-        margin-bottom: 20px;
-    }
 }
 
 /* Desktop Styles */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     header {
-        flex-direction: row;
-        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
     }
 
-    nav ul {
-        flex-direction: row;
+    body {
+        padding-top: 80px;
     }
 
     #home {
@@ -648,51 +653,11 @@ footer {
         height: 100vh;
     }
 
-    .home-content h1 {
-        font-size: 50px;
-    }
-
-    .home-content .role {
-        font-size: 24px;
-    }
-
-    .about-me-container {
-        flex-direction: row;
-        text-align: left;
-    }
-
-    .about-me-container img {
-        max-width: 500px;
-        margin-right: 40px;
-    }
-
-    .about-me-content {
-        max-width: 600px;
-    }
-
-    .experience {
-        flex-direction: row;
-        align-items: center;
-        text-align: left;
-    }
-
-    .experience img {
-        margin-right: 20px;
-    }
-
-    .experience-details {
-        max-width: 1000px;
-    }
-
     .portfolio-content {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .skills-container {
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    .skill {
-        margin-bottom: 0;
     }
 }

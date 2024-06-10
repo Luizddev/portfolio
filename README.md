@@ -73,21 +73,27 @@ Aqui estão algumas melhorias planejadas para este portfólio:
 3. **SEO e Performance**: Melhorar o SEO e otimizar a performance para um carregamento mais rápido das páginas.
 4. **Novos Projetos e Experiências**: Atualizar a seção de projetos com novos trabalhos e adicionar novas experiências profissionais conforme forem surgindo oportunidades.
 
-## Foto do projeto
+## Fotos do projeto
 
-Visão Mobile:
+Mobile:
 
  <img width="30%" src="imgs/Home_Mobile.png"  alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
  <img width="30%" src="imgs/Home_About_Me.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
- Visão Tablet:
+Tablet:
 
  <img width="30%" src="imgs/Home_Tablet.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
 
-  Visão Desktop:
+Desktop:
 
  <img width="60%" src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+
+ <img width="60%" src="imgs/About_me_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+
+ <img width="60%" src="imgs/Work_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
+
+  <img width="60%" src="imgs/Skills_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
 
 ## Contato
 
