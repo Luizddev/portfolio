@@ -1,30 +1,50 @@
-# Portfólio de Luiz Fernando
+<h1 align="center" style="font-weight: bold;">Personal Portfolio 💻</h1>
+<div id="technologies" align="center">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"
+</div>
 
-Bem-vindo ao repositório do meu portfólio! Este projeto foi criado para apresentar minhas habilidades, experiências e projetos. Aqui você encontrará uma visão geral do meu trabalho e minhas conquistas.
+<p align="center">
+    <a href="#technologies">Technologies Used</a> •
+  <a href="#structure">Structure</a> •
+ <a href="#contribute">Contribute</a>
+</p>
 
-## Índice
+<p align="center">
+    <b>This portfolio is a representation of my journey as a future software engineer. In it, you will find detailed sections about my professional experiences, projects carried out and technical skills.</b>
+</p>
 
-- [Visão Geral](#visão-geral)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Como Visualizar](#como-visualizar)
-- [Próximas Melhorias](#próximas-melhorias)
-- [Contato](#contato)
+<p align="center">
+     <a href="https://luizddev.github.io/portfolio/">📱 Visit this Project</a>
+</p>
 
-## Visão Geral
+<h2 id="layout">🎨 Layout</h2>
 
-Este portfólio é uma representação do meu percurso como futuro engenheiro de software. Nele, você encontrará seções detalhadas sobre minhas experiências profissionais, projetos realizados e habilidades técnicas.
+<p align="center">
+    <img src="imgs/Home_Desktop.png" alt="Image Example" width="500px">
+    <img src="imgs/About_me_Desktop.png" alt="Image Example" width="500px">
+</p>
 
-## Tecnologias Utilizadas
+<h3>Cloning</h3>
 
-- **HTML5**: Estruturação do conteúdo.
-- **CSS3**: Estilização e layout da página.
-- **Google Fonts**: Tipografia com a fonte "Poppins".
-- **Ícones e Imagens**: Utilização de ícones e imagens relevantes para enriquecer a experiência visual.
+How to clone your project
 
-## Estrutura do Projeto
+```bash
+git clone https://github.com/SeuUsuario/portfolio-luiz-fernando.git
+```
 
-A estrutura de arquivos do projeto é organizada da seguinte forma:
+<h3>Starting</h3>
+
+How to start your project
+
+```bash
+cd portfolio-luiz-fernando
+```
+<h3>Open the archive</h3>
+ - You can simply drag the `index.html` file into an open browser window or
+ - Double click on the `index.html` file to open directly in the default browser.
+
+<h2 id="structure">💻 Project Structure</h2>
 
 ```
 /project-root
@@ -32,75 +52,20 @@ A estrutura de arquivos do projeto é organizada da seguinte forma:
 ├── index.html
 ├── style.css
 └── imgs/
-    ├── favicon.ico
-    ├── CiscoCertified.png
-    ├── image.png
-    ├── linkedin-logo.png
-    ├── github-logo.png
-    ├── instagram-logo.png
-    └── fundo.jpg
+    ├── project images
 ```
 
-- **index.html**: Contém a estrutura HTML do portfólio.
-- **style.css**: Contém os estilos CSS aplicados ao portfólio.
-- **imgs/**: Diretório que armazena todas as imagens utilizadas no site, incluindo ícones e logos.
+<h2 id="contribute">📫 Contribute</h2>
 
-## Como Visualizar
+Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
 
-Para visualizar o portfólio localmente, siga estas etapas:
+1. `git clone https://github.com/Luizddev/index.html`
+2. `git checkout -b feature/NAME`
+3. Follow commit patterns
+4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
 
-1. **Clone este repositório**:
-    ```sh
-    git clone https://github.com/SeuUsuario/portfolio-luiz-fernando.git
-    ```
-2. **Navegue até o diretório do projeto**:
-    ```sh
-    cd portfolio-luiz-fernando
-    ```
-3. **Abra o arquivo `index.html` em seu navegador**:
-    - Você pode simplesmente arrastar o arquivo `index.html` para uma janela aberta do navegador ou
-    - Clicar duas vezes no arquivo `index.html` para abrir diretamente no navegador padrão.
-  
- **Ou abra o link abaixo**:
-    - <a href="https://luizddev.github.io/portfolio/">Link do Portfólio</a>
+<h3>Documentations that might help</h3>
 
-## Próximas Melhorias
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
 
-Aqui estão algumas melhorias planejadas para este portfólio:
-
-1. **Alteração do Tema**: Implementar um tema escuro para melhorar a experiência do usuário, permitindo a troca entre os temas.
-2. **Animações e Interatividade**: Adicionar animações sutis e interações para tornar a navegação mais envolvente.
-3. **SEO e Performance**: Melhorar o SEO e otimizar a performance para um carregamento mais rápido das páginas.
-4. **Novos Projetos e Experiências**: Atualizar a seção de projetos com novos trabalhos e adicionar novas experiências profissionais conforme forem surgindo oportunidades.
-
-## Fotos do projeto
-
-Mobile:
-
- <img width="40%" src="imgs/Home_Mobile.png"  alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
-
- <img width="40%" src="imgs/Home_About_Me.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
-
-Tablet:
-
- <img width="40%" src="imgs/Home_Tablet.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo móvel">
-
-Desktop:
-
- <img width="70%" src="imgs/Home_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
-
- <img width="70%" src="imgs/About_me_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
-
- <img width="70%" src="imgs/Work_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
-
-  <img width="70%" src="imgs/Skills_Desktop.png" alt="Imagem da apresentação do site vista de uma visão de dispositivo desktop">
-
-## Contato
-
-- **LinkedIn**: [linkedin.com/in/luizfernandoa](https://www.linkedin.com/in/luizfernandoa/)
-- **GitHub**: [github.com/Luizddev](https://github.com/Luizddev)
-- **Instagram**: [instagram.com/luizsog](https://www.instagram.com/luizsog/)
-
----
-
-### Agradeço por visitar meu portfólio!
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
