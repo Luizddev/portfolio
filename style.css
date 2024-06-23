@@ -8,14 +8,18 @@ body {
 }
 
 header {
-    background-color: #ECECEC;
-    color: rgb(0, 0, 0);
-    padding: 20px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 98%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 100;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 20px 10px;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
 }
 
 .logo {
@@ -64,8 +68,7 @@ nav ul li a:hover {
     }
 
     body {
-        padding-top: 80px;
-        /* Ajuste conforme a altura do header */
+        padding-top: 80px; 
     }
 }
 
@@ -113,9 +116,16 @@ nav ul li a:hover {
     color: #213A57;
 }
 
-.home-content .certification {
-    font-size: 18px;
-    margin: 20px 0;
+.home-content .link{
+    color: #000000;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.link:hover{
+    transition: .5s;
+    color: #0B6477;
+    text-decoration: none;
 }
 
 .home-content .cisco-logo {
@@ -217,10 +227,10 @@ footer {
 
 .social-links {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     gap: 40px;
-    padding: 20px 0;
+    font-size: 30px;
 }
 
 .social-links a {
@@ -229,19 +239,21 @@ footer {
     align-items: center;
     color: #ccc;
     border: 2px solid #ccc;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     transition: all 0.3s ease;
     overflow: hidden;
 }
 
-.social-links a img {
+.btn-socials {
+    display: flex;
     margin: 0 auto;
-    width: 40px;
-    height: 40px;
+    width: 40px; 
+    height: 40px; 
     object-fit: contain;
 }
+
 
 .social-links a:hover {
     color: #fff;
@@ -249,63 +261,10 @@ footer {
     border-color: #213A57;
 }
 
-/* Skills Section */
-.skills-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 60px 20px;
-}
-
-.skills-title {
-    font-size: 2.5em;
-    color: #213A57;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.skills-title span {
-    color: #000000;
-}
-
-.skills-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 80%;
-    max-width: 1200px;
-}
-
-.skill {
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-    align-items: center;
-    justify-content: center;
-}
-
-.skill:hover {
-    transform: scale(1.05);
-}
-
-.skill img {
-    max-width: 50px;
-    margin-bottom: 10px;
-}
-
-.skill p {
-    margin: 0;
-    font-weight: bold;
-    color: #000000;
-}
 
 /* Experiences Section */
 .section-title {
-    color: #213A57;
+    color: #000000;
     text-align: center;
     margin: 40px 0 20px;
     font-size: 2em;
@@ -360,7 +319,7 @@ footer {
 }
 
 /* Projects Section */
-.portfolio-content {
+.portfolio-content{
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
@@ -368,14 +327,14 @@ footer {
     margin-top: 5rem;
 }
 
-.row {
+.row{
     position: relative;
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.row img {
+.row img{
     max-width: 350px;
     min-width: 100%;
     min-height: 375px;
@@ -385,7 +344,7 @@ footer {
     transition: transform 0.5s;
 }
 
-.layer {
+.layer{
     width: 100%;
     height: 0%;
     background: var(--main-color);
@@ -403,19 +362,19 @@ footer {
     transition: height 0.5s;
 }
 
-.layer h5 {
+.layer h5{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
-.layer p {
+.layer p{
     color: var(--second-color);
     font-size: var(--p-small-font);
     line-height: 1.8;
 }
 
-.layer i {
+.layer i{
     color: var(--main-color);
     margin-top: 20px;
     font-size: 20px;
@@ -428,15 +387,15 @@ footer {
     border-radius: 50%;
 }
 
-.row:hover img {
+.row:hover img{
     transform: scale(1.1);
 }
 
-.row:hover .layer {
+.row:hover .layer{
     height: 100%;
 }
 
-.end {
+.end{
     letter-spacing: 1px;
     text-align: center;
     padding: 20px 15%;
@@ -448,27 +407,27 @@ footer {
     background-color: var(--bg-color);
 }
 
-.last-text p {
+.last-text p{
     color: var(--second-color);
     font-size: var(--p-font)
 }
 
-#top {
+#top{
     position: fixed;
     bottom: 0;
     padding: auto;
     margin: 5rem;
 }
 
-#top.hide-top {
+#top.hide-top{
     display: none;
 }
 
-#top.show-top {
+#top.show-top{
     display: block;
 }
 
-#top i {
+#top i{
     padding: 10px;
     border-radius: 8px;
     font-size: 28px;
@@ -476,7 +435,7 @@ footer {
     background: var(--main-color);
 }
 
-.main-text h3 {
+.main-text h3{
     color: #000000;
     text-align: center;
     margin: 40px 0 20px;
@@ -487,6 +446,58 @@ footer {
     color: #213A57;
 }
 
+/* Skills Section */
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.skills-title {
+    font-size: 2.5em;
+    color: #213A57;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-title span {
+    color: #000000;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.skill {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+.s-icons i{
+    font-size: 50px;
+    color: #213A57;
+}
+.skill p {
+    margin: 0;
+    font-weight: bold;
+    color: #000000;
+}
 /* Mobile Styles */
 @media (max-width: 600px) {
     header {
