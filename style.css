@@ -68,7 +68,7 @@ nav ul li a:hover {
     }
 
     body {
-        padding-top: 80px; 
+        padding-top: 80px; /* Ajuste conforme a altura do header */
     }
 }
 
@@ -191,10 +191,35 @@ footer {
     max-width: 1000px;
 }
 
-.about-me-container img {
-    max-width: 500px;
-    margin-right: 40px;
+.about-me-container {
+    text-align: center; 
 }
+
+.content-wrapper {
+    display: inline-block; 
+}
+
+.about-me-container img {
+    display: block; 
+    max-width: 450px;
+    margin: 0 auto; 
+}
+
+.download-cv {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 1px;
+    background-color: #213A57;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.download-cv:hover{
+    background-color: #213A57;
+    color: #000000;
+    transition-duration: 0.4s;
+}
+
 
 .about-me-content {
     max-width: 100%;
@@ -260,6 +285,7 @@ footer {
     background-color: #213A57;
     border-color: #213A57;
 }
+
 
 
 /* Experiences Section */
