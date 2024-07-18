@@ -58,6 +58,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #0B6477;
+    box-shadow: 0px 0px 8px #0B6477;
 }
 
 /* Header fixo para telas grandes */
@@ -219,6 +220,7 @@ footer {
 .download-cv:hover{
     background-color: #213A57;
     color: #000000;
+    box-shadow: 0px 0px 8px #213A57;
     transition-duration: 0.4s;
 }
 
@@ -295,6 +297,7 @@ footer {
 
 .social-links a:hover {
     color: #fff;
+    box-shadow: 0px 0px 8px #213A57;
     background-color: #213A57;
     border-color: #213A57;
     transform: scale(0.9);
@@ -538,6 +541,67 @@ footer {
     font-weight: bold;
     color: #000000;
 }
+
+#contac{
+    padding: 80px 4%;
+    
+}
+.contato h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+}
+.contato highlight{
+    color: #213A57;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: ease-in-out 0.5s;
+    font-weight: 600;
+}
+
+form .btn-enviar input:hover{
+    background-color: #213A57;
+    box-shadow: 0px 0px 8px #213A57;
+    transform: scale(0.95);
+}
+
+
+
+
 /* Mobile Styles */
 @media (max-width: 600px) {
     header {
