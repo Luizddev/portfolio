@@ -16,8 +16,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
-    padding: 20px 10px;
+    background: #F5F5F5;
+    padding: 20px 5px;
     border-bottom: 1px solid transparent;
     transition: all .45s ease;
 }
@@ -149,10 +149,12 @@ nav ul li a:hover {
     text-transform: uppercase;
     border-radius: 6px;
     transition: background-color 0.3s ease;
+    transition: ease-in-out 0.5s;
 }
 
 .btn:hover {
     background-color: #5a7696;
+    transform: scale(0.95);
 }
 
 .container {
@@ -349,6 +351,7 @@ footer {
 .company-name {
     color: #000000;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .experience-stack {
