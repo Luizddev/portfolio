@@ -30,7 +30,7 @@
 How to clone your project
 
 ```bash
-git clone https://github.com/SeuUsuario/portfolio-luiz-fernando.git
+git clone https://github.com/Luizddev/portfolio-luiz-fernando.git
 ```
 
 <h3>Starting</h3>
