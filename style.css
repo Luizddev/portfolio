@@ -57,8 +57,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #0b6377a2;
-    
+    color: #0b63779a;
 }
 
 /* Header fixo para telas grandes */
@@ -69,7 +68,7 @@ nav ul li a:hover {
     }
 
     body {
-        padding-top: 80px; /* Ajuste conforme a altura do header */
+        padding-top: 80px; 
     }
 }
 
