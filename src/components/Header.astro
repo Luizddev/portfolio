@@ -1,0 +1,52 @@
+---
+const navLinks = [
+  { href: '#projetos', label: 'Projetos' },
+  { href: '#habilidades', label: 'Habilidades' },
+  { href: '#experiencia', label: 'Experiência' },
+  { href: '#contato', label: 'Contato' },
+];
+---
+<header class="fixed top-0 left-0 right-0 z-50 bg-[var(--color-bg)]/90 backdrop-blur-md border-b border-[var(--color-border)]">
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Navegação principal">
+    <div class="flex h-16 items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="/" class="font-semibold text-xl text-[var(--color-fg)] hover:text-[var(--color-primary)] transition-colors" aria-label="Início">
+          Luiz Fernando
+        </a>
+        <span class="hidden sm:block text-[var(--color-fg-muted)] text-sm">Backend Developer • Data Engineering</span>
+      </div>
+
+      <div class="flex items-center gap-6">
+        <ul class="hidden md:flex items-center gap-6" role="menubar">
+          {navLinks.map(link => (
+            <li role="none">
+              <a href={link.href} class="text-sm font-medium text-[var(--color-fg-muted)] hover:text-[var(--color-primary)] transition-colors" role="menuitem">
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <button
+          id="theme-toggle"
+          class="p-2 rounded-lg bg-[var(--color-bg-muted)] border border-[var(--color-border)] hover:bg-[var(--color-card-hover)] transition-colors"
+          aria-label="Alternar tema"
+          type="button"
+        >
+          <!-- Icon injected by JS -->
+        </button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<style>
+  /* Smooth scroll offset for fixed header */
+  :target::before {
+    content: '';
+    display: block;
+    height: 5rem; /* 80px = h-16 + some padding */
+    margin-top: -5rem;
+    visibility: hidden;
+  }
+</style>

@@ -1,0 +1,100 @@
+---
+import { experiences, education } from '../data/experience.ts';
+---
+<section id="experiencia" class="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--color-bg-muted)]">
+  <div class="max-w-4xl mx-auto">
+    <header class="text-center mb-16">
+      <h2 class="text-3xl sm:text-4xl font-bold text-[var(--color-fg)] mb-4">Experiência & Formação</h2>
+      <p class="text-[var(--color-fg-muted)]">Trajetória de infraestrutura de redes para desenvolvimento backend e dados.</p>
+    </header>
+
+    <div class="space-y-12">
+      <!-- Professional Experience -->
+      <div>
+        <h3 class="text-lg font-semibold text-[var(--color-fg)] mb-6 flex items-center gap-2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-[var(--color-primary)]"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/><path d="M10.34 10.34a7.5 7.5 0 0 1 9.32 9.32"/></svg>
+          Experiência Profissional
+        </h3>
+
+        <div class="space-y-6">
+          {experiences.map((exp, index) => (
+            <article class="relative pl-6 sm:pl-8 border-l-2 border-[var(--color-border)]">
+              <div class="absolute left-0 top-0 -translate-x-1/2 w-4 h-4 rounded-full bg-[var(--color-primary)] border-4 border-[var(--color-bg)]" aria-hidden="true"></div>
+              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
+                <div>
+                  <h4 class="text-lg font-semibold text-[var(--color-fg)]">{exp.role}</h4>
+                  <p class="text-[var(--color-primary)] font-medium">{exp.company}</p>
+                </div>
+                <time class="text-sm text-[var(--color-fg-muted)] whitespace-nowrap" datetime={exp.period}>{exp.period}</time>
+              </div>
+              {exp.location && <p class="text-sm text-[var(--color-fg-muted)] mb-3 flex items-center gap-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>{exp.location}</p>}
+
+              <ul class="space-y-1.5 text-sm text-[var(--color-fg-muted)] mb-4" role="list">
+                {exp.description.map(desc => (
+                  <li class="flex items-start gap-2">
+                    <span class="text-[var(--color-primary)] mt-0.5">→</span>
+                    <span>{desc}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <div class="flex flex-wrap gap-2 mb-4" role="list" aria-label="Stack tecnológico">
+                {exp.stack.map(tech => (
+                  <span class="px-2 py-1 text-xs bg-[var(--color-bg)] text-[var(--color-fg-muted)] border border-[var(--color-border)] rounded" role="listitem">{tech}</span>
+                ))}
+              </div>
+
+              {exp.dataRelevance && (
+                <details class="group">
+                  <summary class="cursor-pointer text-sm font-medium text-[var(--color-primary)] hover:underline flex items-center gap-1">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="transition-transform group-open:rotate-90"><polyline points="6 9 12 15 18 9"/></svg>
+                    Relevância para Data Engineering
+                  </summary>
+                  <ul class="mt-2 space-y-1 text-sm text-[var(--color-fg-muted)] pl-4" role="list">
+                    {exp.dataRelevance.map(item => (
+                      <li class="flex items-start gap-2">
+                        <span class="text-[var(--color-primary)] mt-0.5">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              )}
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="pt-8 border-t border-[var(--color-border)]">
+        <h3 class="text-lg font-semibold text-[var(--color-fg)] mb-6 flex items-center gap-2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-[var(--color-primary)]"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          Formação
+        </h3>
+
+        <div class="space-y-4">
+          {education.map(edu => (
+            <article class="bg-[var(--color-card)] border border-[var(--color-border)] rounded-xl p-5 hover:border-[var(--color-primary)]/50 transition-colors">
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                <div>
+                  <h4 class="font-semibold text-[var(--color-fg)]">{edu.degree}</h4>
+                  <p class="text-[var(--color-fg-muted)]">{edu.institution}</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class={`text-xs px-2 py-1 rounded-full ${
+                    edu.status === 'Concluído'
+                      ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
+                      : 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
+                  }`}>
+                    {edu.status}
+                  </span>
+                  <time class="text-sm text-[var(--color-fg-muted)] whitespace-nowrap" datetime={edu.period}>{edu.period}</time>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
